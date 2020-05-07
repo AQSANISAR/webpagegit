@@ -1,0 +1,659 @@
+*{
+    font-family: sans-serif;
+  padding: 0px;
+} 
+
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+   
+}
+
+
+div.ne{
+    background-color:rgb(49, 109, 195,1);
+    width:1519px;
+}
+img{90*
+    width: 16px;
+    height: 16px;
+   margin-left: 20px;
+}
+#l{
+    padding-left: 150px;
+}
+#p{
+    display: inline-block;
+    padding-left: 140px;
+    color: white;
+    font-size: 15px;
+    }
+    input{
+        width: 86px;
+        height: 24px;
+        text-align: center;
+        font-size: 11px;
+        border: 1px solid seagreen;
+     
+    }
+    input::placeholder{
+        color: seagreen;
+    }
+   input#lo{
+       width: 70px;
+       height: 24px;
+       text-align: center;
+       font-size: 11px;
+       border: 1px solid seagreen;
+   }
+    input.no{
+        width: 32px;
+        height: 22px;
+        background-color:rgb(49, 109, 195,1) ;
+        border: none;
+    }
+    
+ #image{
+     width: 185px;
+     height: 95px;
+     margin-left: 170px;
+     vertical-align: top;
+ }
+#main ul{
+    float: right;
+    margin-top: 10px;
+    margin-right: 170px;
+    font-size: 13px;
+    
+    
+}
+#main ul li{
+    display: inline-block;
+    background-color: white;
+    vertical-align: -20px;
+ 
+   
+   
+}
+#main ul li.co a{
+    background-color: rgb(49, 109, 195,1);
+    color: white;
+    border-radius: 15px;
+}
+#main ul li a{
+    text-decoration: none;
+    padding: 3px 15px;
+    border: 1px solid white;
+    color: black;
+}
+#main ul li a:hover{
+    background-color: rgb(49, 109, 195,1);
+    width: 150px;
+   
+    border-radius: 15px;
+    color: white;
+}
+.sub{
+    display: none;
+}
+#main ul li:hover .sub{
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -5px;
+}
+#main ul li:hover .sub li{
+    display: block;
+
+}
+#main ul li:hover .sub a{
+    display: block;
+   
+
+}
+.p{
+    display: none;
+}
+#main ul li:hover .p{
+    display: block;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 2px;
+}
+#main ul li:hover .p li{
+    display: block;
+    text-align: left;
+}
+#main ul li:hover .p a{
+    display: block;
+}
+.i {
+    display: none ;
+}
+#main .p ul li:hover .i{
+    display: block;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -40px;
+}
+#main .p ul li:hover  .i li{
+    display: block;
+    text-align: left;
+}
+#main .p ul li:hover .i a{
+    display: block;
+}
+.x{
+    display: none;
+}
+#main .p  ul li:hover .x{
+    display: block;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+#main .p  ul li:hover  .x li{
+    display: block;
+    text-align: left;
+}
+#main .p  ul li:hover .x a{
+    display: block;
+}
+.j{
+    display: none;
+}
+#main .p ul li:hover .j{
+    display: block;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: -40px;
+}
+#main .p ul li:hover .j li{
+    display: block;
+    text-align: left;
+}
+#main .p ul li:hover .j a{
+    display: block;
+}
+.l
+{
+    display: none;
+}
+#main .p ul li:hover .l{ 
+display: block;
+position: absolute;
+margin-top: -40px;
+margin-left: 180px;
+}
+#main .p ul li:hover .l li{
+    display: block;
+    text-align: left;
+}
+#main .p ul li:hover .l a{
+    display: block;
+}
+.o{
+    display: none;
+}
+#main ul li:hover .o{
+    display: block;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 2px;
+}
+#main ul li:hover .o li{
+    display: block;
+    
+text-align: left;
+}
+#main ul li:hover .o a{
+    display: block;
+}
+.z
+{
+    display: none;
+}
+#main ul li:hover .z{
+    display: block;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 2px;
+}
+#main ul li:hover .z li{
+    display: block;
+    
+text-align: left;
+}
+#main ul li:hover .z a{
+    display: block;
+}
+.m{
+    display: none;
+}
+#main .z ul li:hover .m{
+    display: block;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -37px;
+}
+#main .z ul li:hover .m li{
+    display: block;
+    
+text-align: left;
+}
+#main .z ul li:hover .m a{
+    display: block;
+}
+div#slider{
+    width: 1555px;
+    height: 520px;
+  
+}
+#slider img{
+    width: 1519px;
+    height: 600px;
+    margin-left: -10px;
+  
+}
+#slider{
+    overflow: hidden;
+
+}
+#slider figure{
+    position: relative;
+  z-index: -1;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+   
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    15%{
+        left: 0;
+    }
+    25%{
+        left: -99%;
+    }
+    35%{
+        left: -99%;
+    }
+    45%{
+        left: -199%;
+    }
+    55%{
+        left: -199%;
+    }
+    65%{
+        left: -298%;
+    }
+    75%{
+        left: -298%;
+    }
+    85%{
+        left: -398%;
+    }
+    100%{
+        left: -398%;
+    }
+
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 1s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev{
+      left: 0;
+      border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  .move{
+      display: flex;
+      flex-direction: row;
+      
+  }
+  div.move{
+    width: 1100px;
+    height: 25px;
+    background-color:rgb(49, 109, 195,1);
+    margin-left: 210px;
+    margin-top: 10px;
+}
+
+div.y{
+    background-color:rgb(248,248,248);
+    margin-top: -5px;
+    width: 1519px;
+}
+div.y ul li{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 628px;
+    margin-top: 40px;
+    font-family: 'PTSerif-Bold.ttf';
+}
+
+}
+@font-face {
+    font-family: 'PTSerif-Bold.ttf';
+}
+.y img{
+    margin-left: 620px;
+    margin-top: -10px;
+    width: 235px;
+   height: 60px;
+}
+.y p{
+    text-align: left;
+    padding: 12px;
+    margin: 280px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #666666;
+    font-family: penSans-Regular.ttf;
+  
+   
+}
+.y p{
+    display: flex;
+    flex-direction: row-reverse;
+}
+@font-face{
+    font-family:OpenSans-Regular.ttf ;
+}
+div.pic{
+    background-color:rgb(48, 48, 214);
+    width: 1515px;
+    height:300px;
+    margin-top: -277px;
+}
+div.pic img{
+    width: 40px;
+    height: 40px;
+    margin-left: 250px;
+  margin-top: 50px;
+  
+}
+@font-face{
+    font-family: Raleway-Black;
+}
+div.pic li{
+    display: inline-block;
+    font: bolder;
+    font-size: 60px;
+    text-align: center;
+    padding-left: 1px;
+    color: white;
+    font-family: Raleway-Black;
+  
+}
+.pic img li li.ll{
+    display: flex;
+    flex-direction: column;
+}
+@font-face{
+    font-family:PlayfairDisplay-VariableFont_wght ;
+}
+div.multiple {
+   width: 1480px;
+  height: 600px;
+   font-size:35px ;
+   background-color: rgb(248,248,248);
+   padding: 20px; 
+}
+div.multiple li{
+   list-style: none;
+   font-family:PlayfairDisplay-VariableFont_wght;
+   font-weight: bolder;
+   margin-left: 510px;
+}
+.multiple  span{
+   font-family:PlayfairDisplay-VariableFont_wght;
+   font-weight: bolder;
+
+}
+div.multiple img{
+   width: 180px;
+   height: 60px;
+   margin-left: 603px;
+ margin-top: -35px;
+}
+.multiple{
+    display: flex;
+    flex-direction: column;
+}
+div.IOT h1{
+    color: rgb(49, 109, 195,1);
+    font-family: PlayfairDisplay-VariableFont_wght ;
+    font-size: 30px;
+margin-left: 190px;
+}
+div.IOT h3{
+    margin-left: 190px;
+    margin-top: -30px;
+}
+
+.v{
+  
+    list-style: none;
+    background-color:rgb(248,248,248) ;
+    font-size: 15px;
+    width: 400px;
+    height: 80px;
+    margin-left: 190px;
+  
+}
+.v P{
+   margin-left: 90px;
+   margin-top: -30px;
+    font-family: PlayfairDisplay-VariableFont_wght ;
+    font-size: 17px;
+    color: rgb(49, 109, 195,1)
+    ;
+    font-weight: bolder;
+}
+.OO{
+    margin-left: 620px;
+    list-style: none;
+    background-color:rgb(248,248,248) ;
+    font-size: 15px;
+    width: 400px;
+    height: 80px;
+    margin-top: -95px;
+}
+.OO img{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+.OO P{
+    margin-left: 70px;
+    margin-top: -30px;
+     font-family: PlayfairDisplay-VariableFont_wght ;
+     font-size: 17px;
+     color: rgb(49, 109, 195,1)
+     ;
+     font-weight: bolder;
+ }
+ .nu{
+
+    list-style: none;
+    background-color:rgb(248,248,248) ;
+    font-size: 15px;
+    width: 400px;
+    height: 80px;
+    margin-left: 190px;
+ }
+ .nu img{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+.nu P{
+    margin-left: 70px;
+    margin-top: -30px;
+     font-family: PlayfairDisplay-VariableFont_wght ;
+     font-size: 17px;
+     color: rgb(49, 109, 195,1)
+     ;
+     font-weight: bolder;
+ }
+ .c
+ {
+    margin-left: 620px;
+    list-style: none;
+    background-color:rgb(248,248,248) ;
+    font-size: 15px;
+    width: 400px;
+    height: 80px;
+    margin-top: -95px; 
+ }
+ .c img{
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+}
+.c P{
+    margin-left: 70px;
+    margin-top: -30px;
+     font-family: PlayfairDisplay-VariableFont_wght ;
+     font-size: 17px;
+     color: rgb(49, 109, 195,1)
+     ;
+     font-weight: bolder;}
+     .IOT{
+         display: flex;
+        flex-direction: column;
+     }
+     div.ko h1{
+        margin: 60px;
+        color: rgb(49, 109, 195,1);
+        font-family: PlayfairDisplay-VariableFont_wght ;
+        font-size: 30px;
+        margin-left: 600px;
+     
+    
+     }
+     .ko img{
+         width:140px ;
+         height:60px ;
+         margin-left:640px ;
+    
+     }
+     .ko h1 img{
+         display: flex;
+         flex-direction: row;
+     }
+     div.ass{
+        width: 1480px;
+        height: 200px;
+       vertical-align: 500px;
+     }
+     .ass li{
+         display: inline-block;
+        
+     }
+     .ass img{
+    vertical-align: 200px;
+         margin: -200px;
+         width: 220px;
+         height: 140px;
+         margin-left: 200px;
+         padding: -200px;
+         margin-bottom: -550px;
+   
+        
+      
+    
+     }
+         li.mon img:hover{
+        opacity: 0.5;
+        border: 5px solid grey;
+        box-shadow: grey;
+        
+       
+       
+     }
+     li.bd img:hover{
+          opacity: 0.5;
+        border: 5px solid grey;
+        box-shadow: grey;
+
+     }
+     li.pol img:hover{
+        opacity: 0.5;
+      border: 5px solid grey;
+      box-shadow: grey;
+
+   }
+   li.sar img:hover{
+    opacity: 0.5;
+  border: 5px solid grey;
+  box-shadow: grey;
+
+}
+
+li.la img:hover{
+ opacity: 0.5;
+border: 5px solid grey;
+box-shadow: grey;
+
+}
+      
+     .ass{
+         display: flex;
+         flex-direction: column-reverse;
+     }
+   
+     .eg  {
+      
+        width: 1600px;
+        height: 400px;
+        background-color: black;
+        color: #b9b9b9;
+        padding: 10px;
+       
+        }
+        .eg{
+            display: flex;
+            flex-direction: column;
+        }
+        .blue{
+            width: 1600px;
+            height: 50px;
+            background-color: rgb(49, 109, 195,1);
+            margin-top: -40px;
+        
+        }
+        .blue    { display: flex;
+        flex-direction: column;
+    }
